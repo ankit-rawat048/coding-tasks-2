@@ -1,0 +1,100 @@
+/* ✅ General Page Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f4f6;
+    margin: 0;
+    padding: 0;
+}
+
+/* ✅ Center the Form and Profile Card */
+.container {
+    border: 1px solid black;
+    width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* ✅ Heading Style */
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+}
+
+/* ✅ Form Inputs */
+
+input[type="text"],
+input[type="number"],
+textarea {
+    border: 1px solid black;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+textarea {
+    resize: none;
+}
+
+/* ✅ Form Button */
+button {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #388e3c;
+}
+
+/* ✅ Profile Card Style */
+.profile-card {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* ✅ Profile Card Text */
+.profile-card h2 {
+    margin: 0;
+    font-size: 22px;
+    color: #333;
+}
+
+.profile-card p {
+    font-size: 18px;
+    color: #666;
+    margin: 5px 0;
+}
+
+/* ✅ Back to Home Button */
+.back-btn {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.back-btn:hover {
+    background-color: #217dbb;
+}
