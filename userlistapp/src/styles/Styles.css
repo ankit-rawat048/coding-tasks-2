@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    margin: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1{
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.user-grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.card:hover{
+    background-color: rgb(224, 224, 224);
+}
+
+img{
+    width: 150px;
+    border-radius: 50%;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
+.usercard{
+    margin-top: 50px;
+    width: 500px;
+}
+
+.button {
+    font-size: 30px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    text-decoration: none;
+}
